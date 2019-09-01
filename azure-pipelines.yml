@@ -26,5 +26,5 @@ steps:
     
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: '$build/allOutputs'
+    targetPath: 'build/allOutputs'
     artifact: 'Artifact'
