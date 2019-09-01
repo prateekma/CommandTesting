@@ -26,5 +26,5 @@ steps:
     
 - task: PublishPipelineArtifact@1
   inputs:
-    targetPath: 'build/allOutputs'
+    targetPath: '$(System.DefaultWorkingDirectory)/build/libs/*.jar'
     artifact: 'Artifact'
